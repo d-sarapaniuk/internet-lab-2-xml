@@ -1,0 +1,15 @@
+<!ELEMENT CustomsDeclarations (Entry*)>
+<!ELEMENT Entry (Citizen, VisitCountry, AmountOfMoney, SpecialLuggage?)>
+
+<!ELEMENT Citizen (FirstName, LastName, Patronymic?, NativeCountry)>
+<!ELEMENT FirstName (#PCDATA)>
+<!ELEMENT LastName (#PCDATA)>
+<!ELEMENT Patronymic (#PCDATA)>
+<!ELEMENT NativeCountry (#PCDATA)>
+
+<!ELEMENT VisitCountry (#PCDATA)>
+
+<!ELEMENT AmountOfMoney (#PCDATA)>
+
+<!ELEMENT SpecialLuggage (Item*)>
+<!ELEMENT Item (#PCDATA)>

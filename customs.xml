@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<!DOCTYPE CustomsDeclarations SYSTEM "customs.dtd">
+<?xml-stylesheet type="text/css" href="customs.css"?>
+<?xml-stylesheet type="text/xsl" href="customs.xsl"?>
+
+<CustomsDeclarations>
+    <Entry>
+        <Citizen>
+            <FirstName>Volodymyr</FirstName>
+            <LastName>Osychniuk</LastName>
+            <Patronymic>Serhiyovich</Patronymic>
+            <NativeCountry>Ukraine</NativeCountry>
+        </Citizen>
+        <VisitCountry>France</VisitCountry>
+        <AmountOfMoney>2500 euro</AmountOfMoney>
+    </Entry>
+    <Entry>
+            <Citizen>
+                <FirstName>Oksana</FirstName>
+                <LastName>Demchiuk</LastName>
+                <Patronymic>Andriivna</Patronymic>
+                <NativeCountry>Ukraine</NativeCountry>
+            </Citizen>
+            <VisitCountry>Germany</VisitCountry>
+            <AmountOfMoney>3000 euro</AmountOfMoney>
+            <SpecialLuggage>
+                <Item>Painting</Item>
+                <Item>Silver Necklace</Item>
+            </SpecialLuggage>
+    </Entry>
+</CustomsDeclarations>

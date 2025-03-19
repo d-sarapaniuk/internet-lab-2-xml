@@ -1,0 +1,22 @@
+* {
+    display: block;
+    font-family: "Courier New", monospace;
+    margin: 2px;
+    padding: 2px;
+}
+
+CustomsDeclarations {
+    background-color: #f0f0f0;
+}
+
+Entry {
+    background-color: #e8e8e8;
+}
+
+Citizen {
+    color: darkblue;
+}
+
+SpecialLuggage{
+    font-style: italic;
+}
