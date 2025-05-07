@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <!DOCTYPE CustomsDeclarations SYSTEM "customs.dtd">
 <?xml-stylesheet type="text/css" href="customs.css"?>
-<?xml-stylesheet type="text/xsl" href="customs.xsl"?>
+<!-- <?xml-stylesheet type="text/xsl" href="customs.xsl"?> -->
 
 <CustomsDeclarations>
     <Entry>
@@ -28,4 +28,16 @@
                 <Item>Silver Necklace</Item>
             </SpecialLuggage>
     </Entry>
+    <Entry>
+        <Citizen>
+          <FirstName>John</FirstName>
+          <LastName>Smith</LastName>
+          <NativeCountry>United Kingdom</NativeCountry>
+        </Citizen>
+        <VisitCountry>Spain</VisitCountry>
+        <AmountOfMoney>1800 euro</AmountOfMoney>
+        <SpecialLuggage>
+          <Item>Antique Watch</Item>
+        </SpecialLuggage>
+      </Entry>
 </CustomsDeclarations>
